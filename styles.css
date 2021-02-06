@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Header */
+
+.header-cotainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.header-element {
+  padding: 10px;
+  font-size: 18px;
+}
+
+header {
+  background-color: #00adb5;
+  /* padding: 16px 32px; */
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  width: 700px;
+  margin: 10px auto;
+  display: flex;
+}
+
+/* Profile */
+
+.profile-cotainer {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  width: 700px;
+}
+
+.profile-element {
+  margin: auto;
+}
+
+.profile-element p {
+  font-size: 15px;
+  text-align: center;
+}
+
+.img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+.name {
+  font-size: 30px;
+}
+
+/* Resume  */
+
+.resume {
+  background-color: #393e46;
+  width: 700px;
+  margin: 10px auto;
+}
+
+.content {
+  width: 700px;
+}
+
+/* Left Top */
+
+.left-top {
+  width: 350px;
+  padding: 10px;
+  float: left;
+  background-color: #393e46;
+}
+
+.left-top-title {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+/* Right Top */
+
+.right-top {
+  width: 350px;
+  padding: 10px;
+  float: right;
+  background-color: #393e46;
+}
+
+.right-top-title {
+  font-size: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+body {
+  background-color: #222831;
+  color: #eeeeee;
+}
+
+/* Footer */
+
+footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+footer p {
+  color: #ccc;
+}
