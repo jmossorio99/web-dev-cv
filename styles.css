@@ -49,6 +49,7 @@ header {
 }
 
 .img {
+  margin-top: 10px;
   max-width: 150px;
   max-height: 150px;
 }
@@ -78,11 +79,59 @@ header {
   background-color: #393e46;
 }
 
-.left-top-title {
+.left-top-title-container {
   font-size: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
+}
+
+.left-top-title-element {
+  margin: 10px;
+}
+
+.vertical-divider {
+  border-left: 2px solid #eeeeee;
+  height: 520px;
+}
+
+.left-top-content-container {
+  display: flex;
+}
+
+.left-top-content {
+  margin: 5px;
+}
+
+.companies {
+  font-size: 13px;
+  width: 117px;
+}
+
+.mgt-title {
+  margin-top: 140px;
+}
+
+.mgt-description {
+  margin-top: 65px;
+}
+
+.company-name {
+  color: #00adb5;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 15px;
+}
+
+.role {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.company-descriptions {
+  width: 230px;
 }
 
 /* Right Top */
@@ -94,11 +143,15 @@ header {
   background-color: #393e46;
 }
 
-.right-top-title {
+.right-top-title-container {
   font-size: 20px;
   text-align: center;
   display: flex;
   justify-content: center;
+}
+
+.right-top-title-element {
+  margin: 10px;
 }
 
 body {
