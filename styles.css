@@ -72,7 +72,7 @@ header {
 
 /* Left Top */
 
-.left-top {
+.left {
   width: 350px;
   padding: 10px;
   float: left;
@@ -123,6 +123,7 @@ header {
 
 .text {
   font-size: 15px;
+  margin-bottom: 10px;
 }
 
 .role {
@@ -132,6 +133,10 @@ header {
 
 .company-descriptions {
   width: 230px;
+}
+
+.info {
+  margin-top: 8px;
 }
 
 /* Right Top */
@@ -154,6 +159,58 @@ header {
   margin: 10px;
 }
 
+.right-top-content-container {
+  margin-top: 5px;
+  margin-left: 25px;
+}
+
+.major-title {
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.right-margin-top {
+  margin-top: 30px;
+}
+
+.right-bottom {
+  display: flex;
+}
+
+.skills {
+  width: 175px;
+}
+
+.skills-title {
+  font-weight: bold;
+  margin-left: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.skills-container {
+  display: flex;
+}
+
+.skill-names {
+  margin-left: 25px;
+  width: 175px;
+}
+
+.skill-points {
+  margin-top: 38px;
+}
+
+.points {
+  margin-left: 20px;
+}
+
+.circle {
+  margin-bottom: 10px;
+}
+
+/* Body */
+
 body {
   background-color: #222831;
   color: #eeeeee;
@@ -162,11 +219,8 @@ body {
 /* Footer */
 
 footer {
-  position: absolute;
   text-align: center;
-  bottom: 0;
-  width: 100%;
-  height: 2.5rem;
+  width: 700px;
 }
 
 footer p {
